@@ -1,0 +1,12 @@
+Source: tvt
+Maintainer: Pablo Virolainen <pablo.virolainen@intel.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.3.8), libgtk2.0-dev
+
+Package: tvt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: greet user
+ Greetings tvt-users
